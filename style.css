@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e23;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #1e1e23;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo .name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo .desc {
+  font-size: 12px;
+  color: #bbb;
+}
+
+nav a {
+  color: #bbb;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+nav a.active {
+  background: #2f3f2f;
+  color: #a6f3b1;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.cart {
+  font-size: 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 0 0 20px;
+  line-height: 1.2;
+}
+
+.hero-text .blue {
+  color: #aab8ff;
+}
+
+.hero-text .green {
+  color: #96f0b0;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #aaa;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #2f9f4f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-image {
+  position: relative;
+  margin-top: 20px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.rating {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #1e1e23;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+footer {
+  background: #121216;
+  padding: 40px 20px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-column {
+  max-width: 300px;
+}
+
+footer h4 {
+  margin-top: 0;
+  color: #fff;
+}
+
+footer .desc {
+  font-size: 12px;
+  color: #bbb;
+}
+
+footer .copyright {
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+  font-size: 12px;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+}
+/* Стили для блока Природа в футере */
+.footer-column .logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.footer-column .logo .desc {
+  font-size: 16px;
+  color: #bbb;
+  font-weight: normal;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo .name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo .desc {
+  font-size: 16px;
+  color: #aaa;
+}
