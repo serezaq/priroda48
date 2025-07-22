@@ -194,3 +194,8 @@ footer .copyright {
   font-size: 16px;
   color: #aaa;
 }
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
